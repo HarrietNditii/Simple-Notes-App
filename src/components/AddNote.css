@@ -1,0 +1,33 @@
+.add-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add-note textarea {
+    width: 100%; /* Full width within the container */
+    height: 150px; /* Increased height for a larger input area */
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    resize: none; /* Disable resizing for consistent appearance */
+}
+
+.add-note button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for the button */
+}
+
+.add-note button:hover {
+    background: #0056b3;
+}

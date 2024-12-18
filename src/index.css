@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+.app {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  min-height: 500px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  text-align: center; /* Center content within the app */
+}
+
+h1 {
+  font-size: 3rem; /* Larger font size for emphasis */
+  font-weight: bold;
+  color: #007bff; /* Bright blue for a modern look */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds depth with shadow */
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #007bff, #00d4ff); /* Gradient effect */
+  -webkit-background-clip: text; /* Clips the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Makes the text gradient visible */
+}
